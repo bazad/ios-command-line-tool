@@ -8,21 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		551A88C9208E671F0048DFA0 /* ios_command_line_tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 551A88C8208E671F0048DFA0 /* ios_command_line_tool.m */; };
-		551A88CA208E671F0048DFA0 /* ios_command_line_tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 551A88C7208E671F0048DFA0 /* ios_command_line_tool.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		551A88C2208E671F0048DFA0 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				551A88CA208E671F0048DFA0 /* ios_command_line_tool.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "ios-command-line-tool.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +61,6 @@
 			buildPhases = (
 				551A88C0208E671F0048DFA0 /* Sources */,
 				551A88C1208E671F0048DFA0 /* Frameworks */,
-				551A88C2208E671F0048DFA0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
