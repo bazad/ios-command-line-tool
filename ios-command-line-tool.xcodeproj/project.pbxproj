@@ -84,7 +84,7 @@
 			name = "ios-command-line-tool";
 			productName = "ios-command-line-tool";
 			productReference = 551A88C4208E671F0048DFA0 /* libios-command-line-tool.a */;
-			productType = "com.apple.product-type.library.static";
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
