@@ -11,8 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "ios-command-line-tool.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		551A88C7208E671F0048DFA0 /* ios_command_line_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_command_line_tool.h; sourceTree = "<group>"; };
+		551A88C4208E671F0048DFA0 /* ios-command-line-tool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "ios-command-line-tool"; sourceTree = BUILT_PRODUCTS_DIR; };
 		551A88C8208E671F0048DFA0 /* ios_command_line_tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_command_line_tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +37,7 @@
 		551A88C5208E671F0048DFA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */,
+				551A88C4208E671F0048DFA0 /* ios-command-line-tool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,7 +45,6 @@
 		551A88C6208E671F0048DFA0 /* ios-command-line-tool */ = {
 			isa = PBXGroup;
 			children = (
-				551A88C7208E671F0048DFA0 /* ios_command_line_tool.h */,
 				551A88C8208E671F0048DFA0 /* ios_command_line_tool.m */,
 			);
 			path = "ios-command-line-tool";
@@ -68,7 +66,7 @@
 			);
 			name = "ios-command-line-tool";
 			productName = "ios-command-line-tool";
-			productReference = 551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */;
+			productReference = 551A88C4208E671F0048DFA0 /* ios-command-line-tool */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -229,6 +227,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEEG7TTSF2;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				MACH_O_TYPE = mh_execute;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -241,6 +244,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEEG7TTSF2;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				MACH_O_TYPE = mh_execute;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

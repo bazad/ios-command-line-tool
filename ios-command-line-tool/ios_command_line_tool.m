@@ -6,8 +6,11 @@
 //  Copyright © 2018 Brandon Azad. All rights reserved.
 //
 
-#import "ios_command_line_tool.h"
+#import <Foundation/Foundation.h>
 
-@implementation ios_command_line_tool
-
-@end
+int main(int argc, const char *argv[]) {
+	@autoreleasepool {
+		NSLog(@"ios-command-line-tool");
+	}
+	return 0;
+}
