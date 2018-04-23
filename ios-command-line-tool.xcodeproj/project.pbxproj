@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		551A88C4208E671F0048DFA0 /* libios-command-line-tool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-command-line-tool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "ios-command-line-tool.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		551A88C7208E671F0048DFA0 /* ios_command_line_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_command_line_tool.h; sourceTree = "<group>"; };
 		551A88C8208E671F0048DFA0 /* ios_command_line_tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_command_line_tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 		551A88C5208E671F0048DFA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				551A88C4208E671F0048DFA0 /* libios-command-line-tool.a */,
+				551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 			);
 			name = "ios-command-line-tool";
 			productName = "ios-command-line-tool";
-			productReference = 551A88C4208E671F0048DFA0 /* libios-command-line-tool.a */;
+			productReference = 551A88C4208E671F0048DFA0 /* ios-command-line-tool.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -243,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEEG7TTSF2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -254,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEEG7TTSF2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
